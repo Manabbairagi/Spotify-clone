@@ -1,0 +1,63 @@
+.border{
+    border: 2px solid red; 
+    margin: 3px;
+ }
+ .flex{
+     display: flex;
+ }
+ .justify-center{
+     justify-content: center;
+ }
+ .items-center{
+     align-items: center;
+ }
+ .bg-black{
+    background-color: black;
+    color: white;
+ }
+ .invert{
+    filter: invert(1);
+ }
+ .bg-grey{
+    background-color: #121212;
+ }
+ .rounded{
+    border-radius: 7px;
+ }
+ .m-1{
+    margin: 5px;
+ }
+ .p-1{
+    padding: 10px;
+ }
+ /* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #252525; /* Thumb color */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #34495E; /* Track color */
+}
+
+/* Firefox */
+/* Note: Firefox only supports the 'color' property for scrollbar styling */
+html {
+    scrollbar-color: #252525 #34495E; /* Thumb and track color */
+}
+
+/* Microsoft Edge and IE */
+body {
+    scrollbar-face-color: #252525; /* Thumb color */
+    scrollbar-track-color: #34495E; /* Track color */
+}
+
+/* General Styles */
+body {
+    /* Other styles for your dark-themed website */
+    background-color: #252525; /* Background color */
+    color: #ecf0f1; /* Text color */
+}
